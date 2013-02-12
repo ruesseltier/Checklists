@@ -18,6 +18,7 @@
 		097C2F9B16A742D1001EDD1B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 097C2F9A16A742D1001EDD1B /* Default-568h@2x.png */; };
 		097C2F9E16A742D2001EDD1B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 097C2F9C16A742D2001EDD1B /* MainStoryboard.storyboard */; };
 		097C2FA116A742D2001EDD1B /* ChecklistsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 097C2FA016A742D2001EDD1B /* ChecklistsViewController.m */; };
+		B4BDA9A116CAA079006237F6 /* ChecklistsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BDA9A016CAA079006237F6 /* ChecklistsItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		097C2F9D16A742D2001EDD1B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		097C2F9F16A742D2001EDD1B /* ChecklistsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChecklistsViewController.h; sourceTree = "<group>"; };
 		097C2FA016A742D2001EDD1B /* ChecklistsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChecklistsViewController.m; sourceTree = "<group>"; };
+		B4BDA99F16CAA079006237F6 /* ChecklistsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChecklistsItem.h; sourceTree = "<group>"; };
+		B4BDA9A016CAA079006237F6 /* ChecklistsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChecklistsItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				097C2F9F16A742D2001EDD1B /* ChecklistsViewController.h */,
 				097C2FA016A742D2001EDD1B /* ChecklistsViewController.m */,
 				097C2F8B16A742D1001EDD1B /* Supporting Files */,
+				B4BDA99F16CAA079006237F6 /* ChecklistsItem.h */,
+				B4BDA9A016CAA079006237F6 /* ChecklistsItem.m */,
 			);
 			path = Checklists;
 			sourceTree = "<group>";
@@ -177,6 +182,7 @@
 				097C2F9116A742D1001EDD1B /* main.m in Sources */,
 				097C2F9516A742D1001EDD1B /* ChecklistsAppDelegate.m in Sources */,
 				097C2FA116A742D2001EDD1B /* ChecklistsViewController.m in Sources */,
+				B4BDA9A116CAA079006237F6 /* ChecklistsItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +301,7 @@
 				097C2FA616A742D2001EDD1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
